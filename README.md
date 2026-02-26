@@ -1,4 +1,9 @@
 # Dispersione-pacchetti-d-onda
-Per osservare il progetto effettuato è necessario eseguire i file main che studia ciascuno una differente relazione di dispersione, PrimaDispersione.py analizza sqrt(ck), SecondaDispersione.py sqrt(ck^2), TerzaDispersione.py sqrt(ck^3) e QuartaDispersione.py sqrt(b+ck^2). Il file NoDispersione.py studia la relazione aggiuntiva non dispersiva ω=ck.
+Per osservare il progetto effettuato è necessario eseguire i file main che studia ciascuno una differente relazione di dispersione:
+PrimaDispersione.py analizza sqrt(ck)
+SecondaDispersione.py sqrt(ck^2)
+TerzaDispersione.py sqrt(ck^3)
+QuartaDispersione.py sqrt(b+ck^2)
+Il file NoDispersione.py studia la relazione aggiuntiva non dispersiva ω=ck.
 Eseguendo tali codici si generano prima i dati di frequenze e ampiezze tramite i moduli contenuti nel file Distribuzioni.py tramite i parametri immessi dall'utente da terminale, poi vengono visualizzati gli istogrammi per illustrare questi dati appunto tramite il file Grafici.py. 
 Successivamente tramite le funzioni contenute nel file EvoluzioneTemporale.py si studia la larghezza, la posizione del centro e la velocità di gruppo di questi pacchetti, mentre con il file richiamato SpettroDiFourier.py viene fatta la trasformata di Fourier spaziale ad ogni istante dei pacchetti e viene studiato lo spettro di potenza. 
